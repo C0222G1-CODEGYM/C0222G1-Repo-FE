@@ -8,9 +8,6 @@ import java.util.List;
 import java.util.Optional;
 
 public interface ITicketService {
-//    Page<Ticket> findAll(Pageable pageble);
-
-    List<Ticket> findAll();
 
     void save(Ticket ticket);
 
